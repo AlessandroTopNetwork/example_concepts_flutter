@@ -58,10 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
         systemOverlayStyle: SystemUiOverlayStyle.dark, // set light or dark icon in system notification bar
         elevation: 50, // origin shadow from app bar
         shadowColor: Colors.grey, // color shadow from app bar
-        toolbarHeight: 200,
+        toolbarHeight: 120,
         toolbarOpacity: 0.7, // opacity of objects into app bar 1 equals 0 opacity 0 equals objects invisible
         titleTextStyle: TextStyle(
-          fontSize: 20, //font size
+          fontSize: 30, //font size
+          backgroundColor: Colors.cyan, // evidence text marker like
         ),
         //centerTitle: true,
         //leading: const Icon(Icons.account_circle_sharp), // icon into app bar not clickable
