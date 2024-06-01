@@ -88,10 +88,11 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               icon: Icon(Icons.abc_sharp),
               label: Text('Button elevated'),
-              style: ElevatedButton.styleFrom(
-                foregroundColor: Colors.blue, // color of object into button
+              style:
+              ElevatedButton.styleFrom(
+                foregroundColor: Colors.red, // color of object into button
                 backgroundColor: Colors.lightGreenAccent, // background button color
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20) // padding into button , space betwen object and margin of button
+                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20), // padding into button , space betwen object and margin of button
               ),
               //ButtonStyle(
               // foregroundColor: MaterialStateProperty.all<Color>(Colors.lightGreen), // color objects contained into button
