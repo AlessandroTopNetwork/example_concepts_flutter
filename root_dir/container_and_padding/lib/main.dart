@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 300,
             margin: EdgeInsets.all(20), // margin all around container
             alignment: Alignment.bottomCenter, // alignment child of container to bottom center
-            //transform: Matrix4.rotationZ(0.2),
+            transform: Matrix4.rotationZ(0.2),
             child: Text('test alignments\nand trasform'), // container will be adapt to content into it self if not have height and width , the child will be last arguments of any widgets
           ),
           // padding
