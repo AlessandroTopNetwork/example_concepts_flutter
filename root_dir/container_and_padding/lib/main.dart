@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Text('test alignments\nand trasform'), // container will be adapt to content into it self if not have height and width , the child will be last arguments of any widgets
           ),
           // padding
-          Padding( // use this widget if you want get blank space around of container, will be used for an example list build
+          Padding( // use this widget if you want get blank space around of container, will be used for an example list build // use padding when you need only padding around children
             padding: const EdgeInsets.all(8.0),
             child:
             Container( // if first container not have height and width , it take all space in the current page
