@@ -4,7 +4,7 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatefulWidget { // stae full can be canghe evrity in the widget/page , state less can not change nothing in the widget at runtime
   MyApp({super.key});
 
   @override
