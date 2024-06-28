@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_of_page/screens/SecondaPagina.dart';
 
 class PrimaPagina extends StatelessWidget {
   const PrimaPagina({super.key});
