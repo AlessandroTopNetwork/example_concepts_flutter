@@ -124,6 +124,8 @@ Future<List<Album>> fetchAllAlbums() async { // from gemini
     return [];
   }
 }
+//example other call api 
+
 
 Future<bool> deleteAlbum(id) async {
   await http.delete(Uri.parse('https://jsonplaceholder.typicode.com/albums/$id')).then((value) {
